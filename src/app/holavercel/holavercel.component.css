@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Color de fondo */
+  }
+  
+  .title {
+    font-size: 3em;
+    color: #333; /* Color del texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra del texto */
+    font-family: 'Arial', sans-serif; /* Fuente */
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    background-image: linear-gradient(45deg, #ff7e5f, #feb47b); /* Degradado de fondo */
+    -webkit-background-clip: text; /* Clip de texto para aplicar el degradado */
+    -webkit-text-fill-color: transparent; /* Hace el texto transparente para el clip */
+  }
+  
